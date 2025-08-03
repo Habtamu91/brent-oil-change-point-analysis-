@@ -8,7 +8,7 @@
 
 ---
 
-## 🔍 Project Overview
+## 🔍 Project Overview.
 
 This project aims to analyze historical Brent crude oil prices and identify **significant structural changes** in the time series using **Bayesian Change Point Detection**. The goal is to **quantify the impact of major geopolitical, economic, and OPEC-related events** on Brent oil price behavior over the past three decades.
 
