@@ -1,36 +1,42 @@
-# Byte-compiled / optimized / DLL files
+# Python development
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *.so
+*.egg-info/
 
 # Virtual environments
 .venv/
 venv/
 env/
 
-# Jupyter Notebook Checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# VS Code
+# IDE/Editor
 .vscode/
+.idea/
 
-# Mac system files
+# System files
 .DS_Store
+*.swp
+*.swo
 
-# Python egg metadata
-*.egg-info/
-
-# Flask cache and logs
-instance/
-*.log
-
-# Environment & dependency
+# Environment variables
 .env
 .env.*
+.env.local
 
-# React build outputs
-frontend/build/
-frontend/node_modules/
+# Logs and runtime data
+*.log
+instance/
 
-# PyMC3 model cache
+# Data files (large files - consider Git LFS if needed)
+*.csv
+*.parquet
 *.nc
+
+# Frontend (if applicable)
+frontend/build/
+frontend/node_modules/'/venv/' 

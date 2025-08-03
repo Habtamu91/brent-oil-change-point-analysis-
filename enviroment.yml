@@ -1,0 +1,18 @@
+name: pymc3-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.24.0
+  - pandas>=2.0.0
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.2
+  - statsmodels>=0.14.0
+  - scipy>=1.10.0
+  - notebook
+  - pip
+  - pip:
+      - pymc3==3.11.5
+      - theano-pymc==1.1.2
+      - arviz
