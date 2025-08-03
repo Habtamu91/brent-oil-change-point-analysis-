@@ -18,12 +18,12 @@ env/
 .vscode/
 .idea/
 
-# System files
+# System files.
 .DS_Store
 *.swp
 *.swo
 
-# Environment variables
+# Environment variables.
 .env
 .env.*
 .env.local
