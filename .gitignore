@@ -34,7 +34,6 @@ env/
 instance/
 
 # Data files (large files - consider Git LFS if needed)
-*.csv
 *.parquet
 *.nc
 
