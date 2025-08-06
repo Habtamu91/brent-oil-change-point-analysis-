@@ -1,3 +1,4 @@
+# src/config.py
 from pathlib import Path
 from datetime import datetime
 import pytz
@@ -11,8 +12,9 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 # Data files
 BRENT_RAW_PATH = RAW_DATA_DIR / "BrentOilPrices.csv"
 EVENTS_RAW_PATH = RAW_DATA_DIR / "events.csv"
-BRENT_PROCESSED_PATH = PROCESSED_DATA_DIR / "brent_processed.parquet"
-EVENTS_PROCESSED_PATH = PROCESSED_DATA_DIR / "events_processed.parquet"
+
+BRENT_PROCESSED_PATH = PROCESSED_DATA_DIR / "brent_processed.csv"
+EVENTS_PROCESSED_PATH = PROCESSED_DATA_DIR / "events_processed.csv"
 
 # Date ranges (all timezone-naive)
 DEFAULT_START_DATE = datetime(1987, 5, 20)  # No timezone
