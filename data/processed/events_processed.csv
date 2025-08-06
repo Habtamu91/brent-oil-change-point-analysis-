@@ -1,0 +1,16 @@
+Event_name,Event_date,Description,Expected_Impact
+Gulf War Begins,1990-08-02,Iraq invades Kuwait leading to supply disruptions and oil price spikes.,High
+Asian Oil Crisis,1990-10-01,Supply disruptions in Asia leading to short-term price spikes.,Medium
+Asian Financial Crisis,1997-07-02,"Economic downturn reduces oil demand in Asia, affecting prices.",Medium
+Venezuela Oil Strike,2002-12-02,"Strike reduces Venezuelan oil output, tightening supply.",Medium
+Iraq War Starts,2003-03-20,US-led invasion causes uncertainty and price volatility in oil markets.,High
+Hurricane Katrina,2005-08-23,Severe storm disrupts Gulf oil production and refining capacity.,Medium
+Global Financial Crisis,2008-09-15,Worldwide recession leads to sharp fall in oil demand and prices.,High
+US Shale Boom,2010-01-01,Rapid growth in US shale oil production disrupts global markets.,Medium
+Libyan Civil War,2011-02-15,Conflict halts oil exports and increases price uncertainty.,High
+Oil Price Crash,2014-06-20,Supply glut and OPEC decision not to cut output causes price collapse.,High
+Iran Nuclear Deal Agreed,2015-07-14,"Sanctions eased, Iranian oil re-enters global market affecting supply.",Medium
+OPEC Production Cut Announcement,2016-11-30,OPEC agrees to cut production to stabilize falling oil prices.,High
+Saudi Aramco IPO,2019-12-11,Largest IPO boosts Saudi oil sector investment outlook.,Low
+COVID-19 Pandemic Declared,2020-03-11,Global lockdowns cause dramatic drop in oil demand and prices.,High
+Russia-Ukraine Conflict,2022-02-24,"Conflict triggers sanctions and supply uncertainty, raising oil prices.",High
