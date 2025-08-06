@@ -1,0 +1,72 @@
+.data-upload-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.data-upload-panel h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.3rem;
+}
+
+.upload-area {
+  margin-bottom: 20px;
+}
+
+.file-upload {
+  display: block;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.file-upload:hover {
+  background-color: #f9f9f9;
+}
+
+.upload-button {
+  width: 100%;
+  padding: 8px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.sample-datasets h3 {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.sample-datasets ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sample-datasets li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dataset-name {
+  font-weight: 500;
+}
+
+.dataset-type {
+  color: #7f8c8d;
+  font-size: 0.8rem;
+}

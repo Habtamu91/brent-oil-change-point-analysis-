@@ -1,0 +1,97 @@
+.results-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.results-panel h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.3rem;
+}
+
+.impact-analysis h3,
+.summary-stats h3 {
+  font-size: 1.1rem;
+  color: #34495e;
+  margin: 20px 0 15px;
+}
+
+.impact-list {
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.impact-item {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.impact-item:last-child {
+  border-bottom: none;
+}
+
+.impact-event {
+  display: flex;
+  flex-direction: column;
+}
+
+.impact-date {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-top: 3px;
+}
+
+.impact-details {
+  text-align: right;
+}
+
+.impact-value {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.impact-meta {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-top: 3px;
+}
+
+.impact-meta span {
+  margin-left: 8px;
+}
+
+.confidence-high {
+  color: #27ae60;
+}
+
+.confidence-medium {
+  color: #f39c12;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.stat-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+}

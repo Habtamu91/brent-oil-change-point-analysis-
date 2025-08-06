@@ -1,0 +1,93 @@
+.analysis-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  position: relative;
+}
+
+.tabs button.active {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.tabs button.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #3498db;
+}
+
+.chart-container {
+  margin: 20px 0;
+  height: 300px;
+}
+
+.change-points-list {
+  margin-top: 30px;
+}
+
+.change-points-list h4 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.change-points-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.change-points-list th,
+.change-points-list td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.change-points-list th {
+  background-color: #f8f9fa;
+}
+
+.events-list {
+  margin-top: 20px;
+}
+
+.event-item {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.event-date {
+  width: 100px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.event-content {
+  flex: 1;
+}
+
+.event-content p {
+  margin: 5px 0 0;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
