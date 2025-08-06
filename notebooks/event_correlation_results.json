@@ -1,0 +1,78 @@
+{
+  "change_point": "1987-08-02 00:00:00",
+  "significant_events": [
+    {
+      "event": "Gulf War Begins",
+      "date": "1990-08-02 00:00:00",
+      "pre_price": 19.23,
+      "post_price": 26.034000000000002,
+      "abs_change": 6.804000000000002,
+      "pct_change": 35.382215288611555
+    },
+    {
+      "event": "OPEC Production Cut Announcement",
+      "date": "2016-11-30 00:00:00",
+      "pre_price": 46.120000000000005,
+      "post_price": 52.715999999999994,
+      "abs_change": 6.595999999999989,
+      "pct_change": 14.301821335646117
+    },
+    {
+      "event": "Russia-Ukraine Conflict",
+      "date": "2022-02-24 00:00:00",
+      "pre_price": 98.42000000000002,
+      "post_price": 102.84200000000001,
+      "abs_change": 4.421999999999997,
+      "pct_change": 4.492989229831331
+    },
+    {
+      "event": "US Shale Boom",
+      "date": "2010-01-01 00:00:00",
+      "pre_price": 77.0,
+      "post_price": 79.14099999999999,
+      "abs_change": 2.140999999999991,
+      "pct_change": 2.780519480519469
+    },
+    {
+      "event": "Hurricane Katrina",
+      "date": "2005-08-23 00:00:00",
+      "pre_price": 64.38199999999999,
+      "post_price": 65.672,
+      "abs_change": 1.2900000000000063,
+      "pct_change": 2.0036656208257067
+    },
+    {
+      "event": "Global Financial Crisis",
+      "date": "2008-09-15 00:00:00",
+      "pre_price": 94.24,
+      "post_price": 90.41466666666665,
+      "abs_change": -3.8253333333333472,
+      "pct_change": -4.059139784946251
+    },
+    {
+      "event": "Asian Oil Crisis",
+      "date": "1990-10-01 00:00:00",
+      "pre_price": 40.65,
+      "post_price": 37.67,
+      "abs_change": -2.979999999999997,
+      "pct_change": -7.3308733087330795
+    },
+    {
+      "event": "Iraq War Starts",
+      "date": "2003-03-20 00:00:00",
+      "pre_price": 29.826,
+      "post_price": 26.308,
+      "abs_change": -3.5180000000000007,
+      "pct_change": -11.795078119761286
+    },
+    {
+      "event": "COVID-19 Pandemic Declared",
+      "date": "2020-03-11 00:00:00",
+      "pre_price": 39.704,
+      "post_price": 30.625999999999998,
+      "abs_change": -9.078000000000003,
+      "pct_change": -22.864195043320578
+    }
+  ],
+  "analysis_performed": "2025-08-06T00:03:56.672167"
+}
